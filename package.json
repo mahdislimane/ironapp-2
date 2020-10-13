@@ -2,7 +2,7 @@
   "name": "backgymapp",
   "version": "1.0.0",
   "description": "",
-  "proxy": "http://localhost:4200",
+  "proxy": "frozen-beach-98744.herokuapp.com",
   "main": "server.js",
   "scripts": {
     "server": "node server.js",
