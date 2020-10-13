@@ -10,8 +10,7 @@ app.use(cors())
 app.use(express.json());
 
 //connect DB
-// const db = process.env.DB_URI;
-const db = "mongodb+srv://MahdiKazama:Mahdi1986@project.t2hmi.mongodb.net/userDB?retryWrites=true&w=majority";
+const db = process.env.DB_URI;
 mongoose.connect(
   db,
   { useUnifiedTopology: true, useNewUrlParser: true },
