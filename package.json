@@ -5,7 +5,7 @@
   "proxy": "http://localhost:4200",
   "main": "server.js",
   "scripts": {
-    "server": "nodemon server.js",
+    "server": "node server.js",
     "client": "npm start --prefix gymapp",
     "clientinstall": "npm install --prefix gymapp",
     "dev": "concurrently \"npm run server\" \"npm run client",
