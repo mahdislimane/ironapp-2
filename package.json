@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
+  "proxy": "frozen-beach-98744.herokuapp.com:process.env.PORT",
   "scripts": {
     "server": "node server.js",
     "client": "npm start --prefix gymapp",
